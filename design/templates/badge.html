@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="_brand.css">
+<style>
+  .badge {
+    position: relative; width: 230px; height: 68px; border-radius: 14px; overflow: hidden;
+    display: flex; align-items: center; gap: 14px; padding: 0 20px 0 18px;
+    background: linear-gradient(180deg, #151d3a 0%, var(--night) 100%);
+  }
+  /* on GitHub dark the page is near-black, so the badge gets a visible rim */
+  .dark .badge  { box-shadow: inset 0 0 0 1.5px rgba(163, 174, 205, .38); }
+  .light .badge { box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .06); }
+  /* siren accent: red/blue hairline along the bottom edge */
+  .badge::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
+    background: linear-gradient(90deg, var(--siren-red) 0 50%, var(--siren-blue) 50% 100%);
+  }
+  .glyph { width: 34px; height: 34px; flex: none; display: grid; place-items: center; }
+  .glyph svg { width: 100%; height: 100%; }
+  .txt { display: flex; flex-direction: column; gap: 3px; }
+  .small { color: var(--mist); font-size: 11.5px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
+  .big { color: #fff; font-size: 25px; font-weight: 600; line-height: 1; letter-spacing: .005em; }
+</style>
+</head>
+<body>
+  <div class="badge">
+    <div class="glyph" id="glyph"></div>
+    <div class="txt">
+      <span class="small din">Available on</span>
+      <span class="big" id="name"></span>
+    </div>
+  </div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const platform = q.get("platform") || "windows";
+  document.body.className = q.get("theme") || "dark";
+  const GLYPHS = {
+    windows: `<svg viewBox="0 0 24 24"><g fill="#2f9bff">
+      <rect x="1" y="1" width="10.4" height="10.4" rx=".6"/><rect x="12.6" y="1" width="10.4" height="10.4" rx=".6"/>
+      <rect x="1" y="12.6" width="10.4" height="10.4" rx=".6"/><rect x="12.6" y="12.6" width="10.4" height="10.4" rx=".6"/></g></svg>`,
+    android: `<svg viewBox="0 2 24 20"><path fill="#3ddc84" d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.637.637 0 0 0-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67a.643.643 0 0 0-.87-.2c-.28.18-.37.54-.22.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>`,
+  };
+  document.getElementById("glyph").innerHTML = GLYPHS[platform];
+  document.getElementById("name").textContent = platform === "windows" ? "Windows" : "Android";
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* Kamote Studios — shared design tokens for rendered README graphics.
+   Palette is sampled from the official OUTRUN icon (siren lights, police tape, night sky). */
+:root {
+  --night: #0a0f1f;      /* studio night — primary dark surface        */
+  --night-2: #121a33;    /* raised dark surface                          */
+  --steel: #2a3456;      /* hairlines on dark                            */
+  --mist: #a3aecd;       /* secondary text on dark                       */
+  --ink: #111833;        /* primary text / logo ink on light             */
+  --paper: #f6f7fb;      /* light surface                                */
+  --slate: #56607e;      /* secondary text on light                      */
+  --siren-red: #e5394f;
+  --siren-blue: #2e6bf0;
+  --tape: #ffcc4f;       /* police-tape yellow                           */
+  --amber: #d99a12;      /* tape yellow, darkened for light backgrounds  */
+  --white: #f3f6f9;
+}
+
+html, body { margin: 0; padding: 0; background: transparent; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+.din { font-family: "Bahnschrift", "DIN Alternate", "Segoe UI", sans-serif; }
+.din-cond { font-family: "Bahnschrift", sans-serif; font-variation-settings: "wdth" 75, "wght" 700; }

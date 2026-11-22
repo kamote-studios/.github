@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="_brand.css">
+<style>
+  .hero {
+    position: relative; width: 1000px; height: 340px; border-radius: 22px; overflow: hidden;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  /* --- dark ------------------------------------------------------------- */
+  .dark .hero {
+    background:
+      radial-gradient(520px 300px at -2% -8%, rgba(229, 57, 79, .42), transparent 70%),
+      radial-gradient(520px 300px at 102% -8%, rgba(46, 107, 240, .46), transparent 70%),
+      radial-gradient(700px 260px at 50% 120%, rgba(46, 107, 240, .10), transparent 70%),
+      linear-gradient(180deg, #0d1430 0%, var(--night) 100%);
+    --grid: rgba(163, 174, 205, .085);
+    --lane: var(--tape);
+    --tag: var(--mist);
+    --dot: rgba(163, 174, 205, .55);
+  }
+  /* --- light ------------------------------------------------------------ */
+  .light .hero {
+    background:
+      radial-gradient(520px 300px at -2% -8%, rgba(229, 57, 79, .16), transparent 70%),
+      radial-gradient(520px 300px at 102% -8%, rgba(46, 107, 240, .18), transparent 70%),
+      linear-gradient(180deg, #fbfcfe 0%, #eef1f8 100%);
+    box-shadow: inset 0 0 0 1.5px rgba(17, 24, 51, .10);
+    --grid: rgba(17, 24, 51, .06);
+    --lane: var(--amber);
+    --tag: var(--slate);
+    --dot: rgba(17, 24, 51, .35);
+  }
+
+  /* isometric city grid, fading out toward the edges */
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      repeating-linear-gradient(30deg, var(--grid) 0 1px, transparent 1px 28px),
+      repeating-linear-gradient(150deg, var(--grid) 0 1px, transparent 1px 28px);
+    -webkit-mask-image: radial-gradient(ellipse 70% 85% at 50% 50%, #000 20%, transparent 78%);
+            mask-image: radial-gradient(ellipse 70% 85% at 50% 50%, #000 20%, transparent 78%);
+  }
+  /* siren light bar along the top edge */
+  .lightbar {
+    position: absolute; top: 0; left: 0; right: 0; height: 5px;
+    background: linear-gradient(90deg, var(--siren-red) 0%, var(--siren-red) 46%, #3d4458 46%, #3d4458 54%, var(--siren-blue) 54%, var(--siren-blue) 100%);
+  }
+  .light .lightbar { opacity: .9; }
+
+  .logo { position: relative; width: 540px; margin-top: -6px; }
+  .tagline {
+    position: relative; margin-top: 26px; color: var(--tag);
+    font-size: 15px; font-weight: 600; letter-spacing: .34em; text-transform: uppercase;
+    display: flex; align-items: center; gap: 18px;
+  }
+  .tagline i { width: 5px; height: 5px; border-radius: 50%; background: var(--dot); display: block; }
+
+  /* lane marking along the bottom */
+  .lane {
+    position: absolute; left: 0; right: 0; bottom: 22px; height: 4px;
+    background: repeating-linear-gradient(90deg, var(--lane) 0 34px, transparent 34px 58px);
+    -webkit-mask-image: linear-gradient(90deg, transparent 4%, #000 30%, #000 70%, transparent 96%);
+            mask-image: linear-gradient(90deg, transparent 4%, #000 30%, #000 70%, transparent 96%);
+    opacity: .9; border-radius: 2px;
+  }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="grid"></div>
+    <div class="lightbar"></div>
+    <img class="logo" id="logo" alt="">
+    <div class="tagline din"><span>Student Game Studio</span><i></i><span>University of Cabuyao</span><i></i><span>Philippines</span></div>
+    <div class="lane"></div>
+  </div>
+<script>
+  const theme = new URLSearchParams(location.search).get("theme") || "dark";
+  document.body.className = theme;
+  document.getElementById("logo").src = `../_work/logo-${theme === "dark" ? "white" : "navy"}-trim.png`;
+</script>
+</body>
+</html>
