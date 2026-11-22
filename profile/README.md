@@ -1,19 +1,18 @@
 <!--
   Kamote Studios · Organization profile README
-  Rendered at https://github.com/Kamote-Studios
+  Rendered at https://github.com/kamote-studios
 
-  Images are referenced by absolute URL so they resolve on the organization page.
-  Theme-aware images use picture/source elements, so GitHub light and dark themes
-  each get a matching version ("-light" / "-dark" files in assets/readme).
-  Graphics are generated from the templates in /design (see the repository README).
+  Images use absolute URLs so they resolve on the organization page.
+  Theme-aware images use picture/source elements: files ending in "-light" / "-dark"
+  in assets/readme are shown in GitHub's light / dark theme respectively.
 -->
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-hero-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-hero-light.png">
-  <img alt="Kamote Studios: student game studio, University of Cabuyao, Philippines" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-hero-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-hero-light.png">
+  <img alt="Kamote Studios: student game studio, University of Cabuyao, Philippines" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-hero-light.png" width="100%">
 </picture>
 
 <br>
@@ -29,9 +28,9 @@ We are the team behind **OUTRUN**, a free-to-play 2.5D chase game for Windows an
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png">
-  <img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png">
+  <img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png" width="100%">
 </picture>
 
 </div>
@@ -48,9 +47,9 @@ Our name is a local joke, and we bring that same playful, unmistakably Filipino 
   <tr>
     <td width="112" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-mascot-dark.png">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-mascot-light.png">
-        <img alt="Kamote Studios mascot: a smiling sweet potato" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-mascot-light.png" width="88">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-mascot-dark.png">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-mascot-light.png">
+        <img alt="Kamote Studios mascot: a smiling sweet potato" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-mascot-light.png" width="88">
       </picture>
     </td>
     <td>
@@ -69,9 +68,9 @@ We took the name with a wink. Anyone who has spent time on Philippine roads has 
 <div align="center">
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png">
-  <img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png">
+  <img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png" width="100%">
 </picture>
 </div>
 
@@ -79,7 +78,7 @@ We took the name with a wink. Anyone who has spent time on Philippine roads has 
 
 <div align="center">
 
-<img alt="OUTRUN: free-to-play 2.5D isometric chase game for Windows and Android" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/outrun-feature-card.png" width="100%">
+<img alt="OUTRUN: free-to-play 2.5D isometric chase game for Windows and Android" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/outrun-feature-card.png" width="100%">
 
 <br>
 <br>
@@ -91,15 +90,15 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
 
 <!-- To make these buttons clickable, wrap each <picture> in <a href="DOWNLOAD-LINK"> … </a>. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-windows-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-windows-light.png">
-  <img alt="Available on Windows" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-windows-light.png" height="56">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-light.png">
+  <img alt="Available on Windows" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-light.png" height="56">
 </picture>
 &nbsp;&nbsp;
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-android-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-android-light.png">
-  <img alt="Available on Android" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/badge-android-light.png" height="56">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-light.png">
+  <img alt="Available on Android" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-light.png" height="56">
 </picture>
 
 <sub><b>FREE TO PLAY</b> &nbsp;·&nbsp; SINGLE-PLAYER &nbsp;·&nbsp; PLAYS OFFLINE</sub>
@@ -110,35 +109,35 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
 
 <table>
   <tr>
-    <td width="76" align="center"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-pursuit.png" width="52"></td>
+    <td width="76" align="center"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-pursuit.png" width="52"></td>
     <td>
       <b>Escalating pursuit</b><br>
       The longer you evade, the higher your heat and the heavier the police response. Patrol cars, motorcycles, roadblocks, spike strips, and officers on foot close in. Break line of sight to cool the search and find another route.
     </td>
   </tr>
   <tr>
-    <td align="center"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-battery.png" width="52"></td>
+    <td align="center"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-battery.png" width="52"></td>
     <td>
       <b>Battery and durability</b><br>
       Sprinting drains the battery faster, low charge reduces top speed, and crashes wear down durability. Spare batteries are scattered across the city. If durability fails, the run ends.
     </td>
   </tr>
   <tr>
-    <td align="center"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-city.png" width="52"></td>
+    <td align="center"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-city.png" width="52"></td>
     <td>
       <b>The city</b><br>
       A dense map of roads, alleys, and crosswalks, with moving traffic, pedestrians, and hazards.
     </td>
   </tr>
   <tr>
-    <td align="center"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-garage.png" width="52"></td>
+    <td align="center"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-garage.png" width="52"></td>
     <td>
       <b>The garage</b><br>
       Start with an e-bike and unlock six additional rides, including a wheelchair and a shopping cart. Earn Meter Points (MP) by riding farther and sustaining higher heat, then spend them on rides or on Battery Capacity, Durability, and Motor upgrades.
     </td>
   </tr>
   <tr>
-    <td align="center"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-scoreboard.png" width="52"></td>
+    <td align="center"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-scoreboard.png" width="52"></td>
     <td>
       <b>Local scoreboard</b><br>
       Track lifetime distance, collisions, batteries collected, runs, and how each run ended. Owned rides, upgrades, and stats are saved locally.
@@ -152,13 +151,13 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
   <thead>
     <tr>
       <th align="left" width="170"></th>
-      <th align="left"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-windows.png" width="14">&nbsp; Windows</th>
-      <th align="left"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-android.png" width="16">&nbsp; Android</th>
+      <th align="left"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-windows.png" width="14">&nbsp; Windows</th>
+      <th align="left"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-android.png" width="16">&nbsp; Android</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-controls.png" width="22" align="top">&nbsp; <b>CONTROLS</b></td>
+      <td colspan="3"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-controls.png" width="22" align="top">&nbsp; <b>CONTROLS</b></td>
     </tr>
     <tr>
       <td>Move</td>
@@ -181,7 +180,7 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
       <td>Touch</td>
     </tr>
     <tr>
-      <td colspan="3"><img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/icon-specs.png" width="22" align="top">&nbsp; <b>SYSTEM REQUIREMENTS</b></td>
+      <td colspan="3"><img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/icon-specs.png" width="22" align="top">&nbsp; <b>SYSTEM REQUIREMENTS</b></td>
     </tr>
     <tr>
       <td>Operating system</td>
@@ -209,16 +208,16 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
 <div align="center">
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png">
-  <img alt="" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/divider-road-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png">
+  <img alt="" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/divider-road-light.png" width="100%">
 </picture>
 <br>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-logo-light.png">
-  <img alt="Kamote Studios" src="https://raw.githubusercontent.com/Kamote-Studios/.github/main/assets/readme/kamote-studios-logo-light.png" width="200">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-logo-light.png">
+  <img alt="Kamote Studios" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/kamote-studios-logo-light.png" width="200">
 </picture>
 
 <sub>Made by Computer Science students of the University of Cabuyao (Pamantasan ng Cabuyao) · Laguna, Philippines</sub><br>
