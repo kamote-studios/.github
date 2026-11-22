@@ -78,9 +78,8 @@ We took the name with a wink. Anyone who has spent time on Philippine roads has 
 
 <div align="center">
 
-<img alt="OUTRUN: free-to-play 2.5D isometric chase game for Windows and Android" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/outrun-feature-card.png" width="100%">
+<a href="https://ninesixfour.itch.io/outrun" title="Play OUTRUN free on itch.io"><img alt="OUTRUN: free-to-play 2.5D isometric chase game for Windows and Android" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/outrun-feature-card.png" width="100%"></a>
 
-<br>
 <br>
 
 **OUTRUN** is a 2.5D isometric chase game set in a dense city.<br>
@@ -88,20 +87,19 @@ Ride through traffic, manage your battery and durability, and stay ahead of a po
 
 <br>
 
-<!-- To make these buttons clickable, wrap each <picture> in <a href="DOWNLOAD-LINK"> … </a>. -->
-<picture>
+<a href="https://ninesixfour.itch.io/outrun" title="Download OUTRUN for Windows on itch.io"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-light.png">
   <img alt="Available on Windows" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-windows-light.png" height="56">
-</picture>
+</picture></a>
 &nbsp;&nbsp;
-<picture>
+<a href="https://ninesixfour.itch.io/outrun" title="Download OUTRUN for Android on itch.io"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-light.png">
   <img alt="Available on Android" src="https://raw.githubusercontent.com/kamote-studios/.github/main/assets/readme/badge-android-light.png" height="56">
-</picture>
+</picture></a>
 
-<sub><b>FREE TO PLAY</b> &nbsp;·&nbsp; SINGLE-PLAYER &nbsp;·&nbsp; PLAYS OFFLINE</sub>
+<sub><b>FREE TO PLAY</b> &nbsp;·&nbsp; SINGLE-PLAYER &nbsp;·&nbsp; PLAYS OFFLINE &nbsp;·&nbsp; <a href="https://ninesixfour.itch.io/outrun"><b>DOWNLOAD ON ITCH.IO</b></a></sub>
 
 </div>
 
